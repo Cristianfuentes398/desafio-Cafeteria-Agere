@@ -13,9 +13,17 @@
         margin-left: 450px;
         margin-right: 30px;
     }
+    &__button--login:hover {
+        color:black;
+        border-color: black;
+    }
     &__button--register{
         background-color: $color-shinyshamrock;
         color: $color-white;
         border-color: transparent;
+    }
+    &__button--register:hover {
+        color: $color-outerspace;
+        background-color: $color-turquoisegreen;
     }
 }
