@@ -1,0 +1,15 @@
+.section{
+    padding-top: 45px;
+    padding-left: 30px;
+
+    &__paragraph{
+        font-size: $fontsizes-xl;
+
+    }
+    &__paragraph2{
+        font-size: $fontsizes-m;
+        width:310px;
+        text-align: left;
+    
+    }
+}

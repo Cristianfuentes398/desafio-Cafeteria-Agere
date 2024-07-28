@@ -1,0 +1,21 @@
+.button{
+    width: 170px;
+    height: 30px;
+    font-family: $pt-mono-regular,$roboto-light;
+    margin-top: 16px;
+    font-size: $fontsizes-l;
+}
+.navbar{
+    &__button--login{
+        background-color: $color-white;
+        color: $color-spanishgray;
+        border-color: $color-isabelline;
+        margin-left: 450px;
+        margin-right: 30px;
+    }
+    &__button--register{
+        background-color: $color-shinyshamrock;
+        color: $color-white;
+        border-color: transparent;
+    }
+}
